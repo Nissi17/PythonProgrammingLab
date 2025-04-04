@@ -1,0 +1,8 @@
+elements=[]
+limit= int(input("Enter the range"))
+for i in range(limit):
+    temp=int(input("Enter the elements"))
+    elements.append(temp)
+    for i in range(elements):
+        print(elements)
+
