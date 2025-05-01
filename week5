@@ -1,0 +1,37 @@
+my_list = [1, 5, 10, 15, 20, 25, 30]
+print(my_list[0:2])
+
+My_list = [1,2,5,660,550,330]
+My_list[0:2] =50,10
+print(My_list)
+
+Na_peru = " Nissi Akku "
+peru =  Na_peru[ :5]
+print(peru)
+
+# concatination
+string1 = "Hello"
+string2 = "world"
+concated_string= string1+" "+string2
+print(concated_string)
+
+#split
+pandlu="aritikaya sepulu anguralu"
+print(pandlu.split())
+
+language= "malayalam"
+print(language.split("ay"))
+
+#length
+kuragaya = "Tamata"
+Entha_sankya = len(kuragaya)
+print(Entha_sankya)
+
+
+
+print(Na_peru.lower())
+print(Na_peru.upper())
+print(len(Na_peru))
+print(Na_peru.split("s"))
+print(Na_peru.replace("Nissi","Vivek"))
+print(Na_peru.find("Akku"))
